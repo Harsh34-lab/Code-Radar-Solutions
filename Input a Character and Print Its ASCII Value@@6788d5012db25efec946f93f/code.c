@@ -2,11 +2,7 @@
 
 int main() {
     char ch;
-
-   
-    scanf("%c", &ch);  // Read the input character
-
+    scanf("%c", &ch);  
     printf("ASCII value: %d\n", ch);
-
     return 0;
 }
