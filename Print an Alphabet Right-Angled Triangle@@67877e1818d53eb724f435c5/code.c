@@ -8,7 +8,7 @@ int main() {
         int j = 1;
         char ch = 'A';
         while (j <= i) {
-            printf("%c", ch);
+            printf("%c ", ch);
             ch++;
             j++;
         }
