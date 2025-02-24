@@ -6,11 +6,11 @@ int main() {
     for(int i =1; i<= a; i++){
         for(int j=1;j<=i;j++){
             if(x==1){
-                printf("%d",x);
+                printf("%d ",x);
                 x--;
             }
             else{
-                printf("0");
+                printf("0 ");
                 x++;
             }
         }
