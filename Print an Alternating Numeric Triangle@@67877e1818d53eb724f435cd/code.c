@@ -6,7 +6,7 @@ int main() {
     for(int i =1; i<= a; i++){
         int x = 1;
         for(int j=1;j<=i;j++){
-            if(!(j%2==0)){
+            if(!(i%2==0)){
                 if(x==1){
                     printf("%d ",x);
                     x--;
