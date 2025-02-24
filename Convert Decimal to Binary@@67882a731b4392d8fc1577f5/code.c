@@ -8,6 +8,7 @@ int main(){
         int z = x%2;
         p *= z*10;
         sum += p;
+        x = y;
     }
     printf("%d",sum);
     return 0;
