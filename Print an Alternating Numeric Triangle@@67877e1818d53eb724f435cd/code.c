@@ -18,11 +18,11 @@ int main() {
             }
             else{
                 if(x==1){
-                    printf("0");
+                    printf("0 ");
                     x--;
                 }
                 else{
-                    printf("%d ",x);
+                    printf("1 ");
                     x++;
                 }
             }  
