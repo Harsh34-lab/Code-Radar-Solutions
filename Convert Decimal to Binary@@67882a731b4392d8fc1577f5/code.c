@@ -1,15 +1,14 @@
 #include <stdio.h>
 
 int main(){
-    int x,y, z, p = 1,sum=0;
+    int x, z, p = 1,sum=0;
     scanf("%d",&x);
-    y = 1;
-    while(y>=1){
-        y = x/2;
+    while(x>0){
         z = x%2;
         z *= p;
         p *= 10;
         sum += z;
+        x /= 2;
     }
     printf("%d",sum);
     return 0;
