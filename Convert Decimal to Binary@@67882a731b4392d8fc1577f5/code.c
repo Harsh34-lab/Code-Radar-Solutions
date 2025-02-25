@@ -1,15 +1,15 @@
 #include <stdio.h>
 
-int main(){
-    int x, z, p = 1,sum=0;
-    scanf("%d",&x);
-    while(x>0){
-        z = x%2;
-        z *= p;
-        p *= 10;
-        sum += z;
-        x /= 2;
+void printBinary(int x) {
+    if (x > 1) {
+        printBinary(x / 2);
     }
-    printf("%d",sum);
+    printf("%d", x % 2);
+}
+
+int main() {
+    int x;
+    scanf("%d", &x);
+    printBinary(x);
     return 0;
 }
