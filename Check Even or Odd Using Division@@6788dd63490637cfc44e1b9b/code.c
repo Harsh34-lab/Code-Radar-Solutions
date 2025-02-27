@@ -2,7 +2,7 @@
 
 int main(){
     int x;
-    scanf("%d %d",&x,&y);
+    scanf("%d",&x);
     if(x%2==0){
         printf("Even");
     }
