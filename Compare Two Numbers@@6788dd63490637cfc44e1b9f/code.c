@@ -6,7 +6,7 @@ int main(){
     if(x>y){
         printf("First");
     }
-    else if(x=y){
+    else if(x==y){
         printf("Equal");
     }
     else{
