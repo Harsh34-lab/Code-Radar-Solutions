@@ -1,7 +1,7 @@
-void isPrime(int x){
-    for(int i = 2; i<=x; i++){
-        if(x%i==0){
-            if(x==i){
+void isPrime(int num){
+    for(int i = 2; i<=num; i++){
+        if(num%i==0){
+            if(num==i){
                 printf("1");
             }
             else{
