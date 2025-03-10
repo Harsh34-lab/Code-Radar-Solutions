@@ -4,7 +4,7 @@ char isPrime(int num){
             if(i==1 && num==1){
                 return 0;
             }
-            if(num==0){
+            if(num==0 && i==1){
                 return 0;
             }
             if(num==i){
