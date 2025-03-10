@@ -4,6 +4,9 @@ char isPrime(int num){
             if(num==i){
                 return 1;
             }
+            else if(i==1){
+                continue;
+            }
             else{
                 return 0;
                 break;
