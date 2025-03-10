@@ -10,6 +10,7 @@ int isPrime(int num){
                 }
                 else{
                     return 0;
+                    break;
                 }
             }
         }
