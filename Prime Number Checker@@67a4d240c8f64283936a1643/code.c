@@ -1,5 +1,5 @@
-int isPrime(int num){
-    for(int i = 0; i<=num; i++){
+int isPrime(int x){
+    for(int i = 2; i<=x; i++){
         if(x%i==0){
             if(x==i){
                 printf("1");
