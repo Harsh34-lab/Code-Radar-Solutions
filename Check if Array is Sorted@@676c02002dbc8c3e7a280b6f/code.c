@@ -12,9 +12,8 @@ int main(){
             printf("Not Sorted");
             break;
         }
-        else if(i==n-2 || n==0){
+        else if(i==n-2){
             printf("Sorted");
-            break;
         }
     }
 }
