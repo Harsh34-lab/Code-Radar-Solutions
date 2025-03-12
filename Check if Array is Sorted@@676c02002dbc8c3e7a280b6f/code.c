@@ -15,5 +15,8 @@ int main(){
         else if(i==n-1){
             printf("Sorted");
         }
+        else{
+            printf("Sorted");
+        }
     }
 }
