@@ -12,7 +12,7 @@ int main(){
     x %= n;
     int arr1[n];
     for(int i = n-x; i<n;i++){
-        arr1[k] = arr[i+x+1];
+        arr1[k] = arr[i];
         k++;
     }
     for(int i = 0 ;i<n-x;i++){
