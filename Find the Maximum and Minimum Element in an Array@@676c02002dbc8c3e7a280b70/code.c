@@ -10,7 +10,7 @@ int main(){
     int largest = arr[0] , smallest = arr[0];
     for(int j = 1; j<n; j++){
         if(arr[j] > largest){
-            largest = arr[i];
+            largest = arr[j];
         }
         else if(arr[j] < smallest){
             smallest = arr[j];
